@@ -1,0 +1,1 @@
+EXEC S_RS_FT_S_REP_StockMinimos '00T1', 2

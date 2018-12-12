@@ -1,0 +1,1344 @@
+.botonok{
+  background-image:url(imagenes/done.jpg);
+  width:25px;
+  height:25px;
+  cursor:pointer;
+  
+}
+.botonok2{
+  background-image:url(imagenes/disk.gif);
+  width:25px;
+  height:25px;
+  cursor:pointer;
+  
+}
+.botonok3{
+  background-image:url(imagenes/xls.png);
+  width:25px;
+  height:25px;
+  cursor:pointer;
+  
+}
+.botonoc{
+  background-image:url(imagenes/done.jpg);
+  width:25px;
+  height:25px;
+  cursor:pointer;
+  
+}
+.botonrsv{
+  background-image:url(imagenes/rsv.png);
+  width:27px;
+  height:27px;
+  cursor:pointer;
+  
+}
+
+.AMERICANnavy
+{	FONT-SIZE: 10px;
+	COLOR: navy;
+	FONT-FAMILY:Arial, Helvetica, sans-serif;
+	font-weight:900;
+	BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-BOTTOM: medium none;
+	vertical-align:middle;
+	background-color:transparent;
+
+}
+.AMERICANwhite
+{	FONT-SIZE: 12px;
+	COLOR: white;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-BOTTOM: medium none;
+	padding-left:10px;
+	padding-right:10px;
+
+}
+.AMERICANwhite10
+{	FONT-SIZE: 10px;
+	COLOR: white;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-BOTTOM: medium none;
+	padding-left:10px;
+	padding-right:10px;
+
+}
+.AMERICAN22
+{ 	FONT-SIZE: 12px; 
+	COLOR: BLACK;
+	FONT-FAMILY: Verdana;
+	font-weight: bold;
+	BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-BOTTOM: medium none;	
+	padding-left:10px;
+	padding-right:10px;
+
+}
+.AMERICAN2
+{ 	FONT-SIZE: 10px;
+	FONT-WEIGHT: 700;
+    color:#000;
+    FONT-FAMILY: "Arial";
+	BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-BOTTOM: medium none;	
+}
+.AMERICAN14
+{ 	FONT-SIZE: 14px;
+	FONT-WEIGHT: 900;
+    color:#000;
+    FONT-FAMILY: "Arial";
+	BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-BOTTOM: medium none;	
+}
+.DESCRIPTORES
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: navy;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent
+}
+.textarea1
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: navy;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+	text-align:justify; 
+	vertical-align:text-top;
+}
+.estilotextarea2 
+{width:100%;
+height:80px;border: 1px dotted #000099;} 
+
+
+.estilotextarea3 
+{ 	width:100%;
+  	height:100%;
+	border:hidden;
+   	FONT-SIZE: 10px;
+	COLOR:#009;
+    FONT-FAMILY: Arial;
+	overflow:auto;
+} 
+
+.DESCRIPTORnegro
+{    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+	FONT-FAMILY:Tahoma, Geneva, sans-serif;
+    FONT-SIZE: 10px;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+}
+.DESCRIPTORnegroizq
+{   BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    FONT-SIZE: 9px;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+	TEXT-ALIGN: LEFT;
+}
+.DESCRIPTORnegroder
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right
+}
+.DESCnegroder
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right;
+	padding-right:20px;
+}
+.DESCnegroder2
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right;
+	
+}
+.DESCnegroizq
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: left
+}
+.DESCRIPTORCENTERnavy
+{   FONT-SIZE: 10px;
+    COLOR: navy;
+    FONT-FAMILY: Arial;
+    TEXT-ALIGN: center;
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+	BORDER-LEFT: medium none;
+	BORDER-BOTTOM: medium none;
+	WIDTH: 100%;
+}
+.DESCRIPTORnavy
+{   FONT-SIZE: 10px;
+    COLOR: navy;
+    FONT-FAMILY: Arial;
+}
+.DESCRIPTORnavyBOLD
+{   FONT-SIZE: 10px;
+    COLOR: navy;
+    FONT-FAMILY: Arial;
+	font-weight:bolder;
+	padding-bottom:2px;
+	padding-left:3px;
+	padding-top:2px;
+	padding-right:2px;
+}
+.DESCENTER
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 9px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+
+.TALAS
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+	
+}
+.TALASBLUE
+{   FONT-WEIGHT: 600;
+    FONT-SIZE: 15px;
+    COLOR: NAVY;
+    FONT-FAMILY: Arial;
+  
+}
+
+.lblBLUE
+{   
+    background-color:Blue; 
+}
+
+.cambio
+{   FONT-WEIGHT: 600;
+    FONT-SIZE: 9px;
+    FONT-FAMILY: Arial;
+    TEXT-ALIGN: center;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+}
+.TALASWHITE
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 15px;
+    BORDER-LEFT: medium none;
+    COLOR: white;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    TEXT-ALIGN: center
+}
+.TALASROJO
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 800;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: medium none;
+    COLOR: red;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.TALASROJOLEFT
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: red;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: left
+}
+.TALASORANGE
+{   FONT-WEIGHT: 800;
+    FONT-SIZE: 12px;
+    COLOR:#FF6600;
+    FONT-FAMILY: Arial; 
+}
+.REPORTES
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 400;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: gainsboro;
+    TEXT-ALIGN: left
+}
+.BOTON
+{	width:100%;
+ 	font-family:Arial;
+    text-align:center;
+    color:Navy;
+    font-weight:600;
+    cursor:pointer;
+}
+.BOTON:hover
+{
+    TEXT-COLOR: NAVY
+}
+.DATOS
+{
+    FONT-SIZE: 9px;
+    WIDTH: 100%;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+}
+.DATOSred
+{
+    FONT-SIZE: 9px;
+    WIDTH: 100%;
+    COLOR: red;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+}
+.DATOSnormal
+{
+    FONT-SIZE: 9px;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+}
+.TEXTOmicro
+{   FONT-SIZE: 8px;
+    FONT-FAMILY:Arial, Helvetica, sans-serif;
+	font-weight:900;
+	color:#000;
+	text-align:center;
+
+}
+.DATOSkhaki
+{
+    FONT-SIZE: 9px;
+    WIDTH: 100%;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #fff5d7;
+    TEXT-ALIGN: center
+}
+.DATOSrojo
+{
+    FONT-SIZE: 9px;
+    WIDTH: 100%;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: red;
+    TEXT-ALIGN: center
+}
+.TEXTOminibb
+{   FONT-SIZE: 9px;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR:#FFF;	
+}
+
+.TEXTOminibbDER
+{   FONT-SIZE: 9px;
+    FONT-FAMILY: Arial;
+    width: 100%;
+    BACKGROUND-COLOR:#FFF;	
+	padding-right:2px; 
+	text-align:right;
+
+}
+.DATOSyellow
+{   FONT-SIZE: 9px;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR:#FFFF9F; 
+    TEXT-ALIGN: right;
+    FONT-SIZE: 10px;
+    padding-right:5px;
+    
+}
+.DATOSceleste
+{   FONT-SIZE: 9px;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR:#C1D3FF; 
+    TEXT-ALIGN: right;
+    FONT-SIZE: 10px;
+    padding-right:5px;
+    
+}
+.DATOSkhaki3
+{
+    FONT-SIZE: 9px;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR:transparent;
+    TEXT-ALIGN: center
+}
+
+
+.DATOSBLANCO
+{
+    FONT-SIZE: 9px;
+    WIDTH: 100%;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: center
+}
+.DATOSBLANCODER
+{	BORDER-RIGHT:none;
+    BORDER-TOP:none;
+	BORDER-LEFT: none;
+    BORDER-BOTTOM: none;
+	FONT-SIZE: 11px;
+    WIDTH: 100%;
+    COLOR: WHITE;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: TRANSPARENT;
+    TEXT-ALIGN: RIGHT;
+}
+.DATOSBLANCOLEFT
+{
+    FONT-SIZE: 10px;
+    WIDTH: 100%;
+    COLOR: WHITE;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: TRANSPARENT;
+    TEXT-ALIGN: LEFT
+}
+.DATOSgrande
+{
+    FONT-SIZE: 14px;
+    WIDTH: 100%;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: white
+}
+.DATOgrandeDER
+{
+    FONT-SIZE: 14px;
+    WIDTH: 100%;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: right;
+    padding-right:5px;
+}
+.DATOScenter
+{
+    FONT-SIZE: 12px;
+    WIDTH: 100%;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.DATOSDER
+{
+    FONT-SIZE: 12px;
+    WIDTH: 100%;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    TEXT-ALIGN: right;
+	
+}
+.TEXTO
+{   BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10px;
+	COLOR: NAVY;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+}
+.TEXTOblue
+{   FONT-SIZE: 10px;
+	COLOR: navy;
+    FONT-FAMILY: Arial;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+	font-weight:800;	
+}
+.TEXTOblue100
+{   FONT-SIZE: 10px;
+	COLOR: navy;
+    FONT-FAMILY: Arial;
+    font-weight:400;	
+	padding-right:10px;
+
+}
+.TEXTOblue1000
+{   FONT-SIZE: 10px;
+	COLOR: navy;
+    FONT-FAMILY: Arial;
+    font-weight:400;	
+	padding-right:10px;
+	width:100%;
+	border:none;
+	
+}
+.TEXTOred
+{   FONT-SIZE: 10px;
+	COLOR: red;
+    FONT-FAMILY: Arial;
+	font-weight:600;
+	
+    background-color:transparent;
+	text-align:left;
+}
+.TEXTONAVYREADONLY
+{   FONT-SIZE: 10px;
+	COLOR: NAVY; 
+    FONT-FAMILY: Arial;
+	font-weight:500;
+	BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    text-align:left;
+    padding-right:5px;  
+    width:100%;
+    background-color:transparent;
+}
+
+.TEXTOredder
+{   FONT-SIZE: 10px;
+	COLOR: red;
+    FONT-FAMILY: Arial;
+	font-weight:800;
+	text-align:right;
+	width:100%;
+}
+.TEXTO2
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 11px;
+	COLOR: black;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+}
+.TEXTO4
+{   font-weight:700;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 9px;
+	COLOR: black;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    width:100%;
+}
+.TEXTO5
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 9px;
+	COLOR: black;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    width:100%;
+    
+}
+.BARRA
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 18px;
+    BORDER-LEFT: medium none;
+
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: "PrecisionID C128 04 DEMO";
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: left
+}
+.BARRAS
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY:Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: left;
+	color:#006;	
+}
+.BARRASder
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY:Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right;
+    padding-right:1px;
+	color:#006;	
+}
+.BARRA2
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+	color:#006;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+	BACKGROUND-COLOR: transparent;
+}
+.BARRA3
+{   FONT-SIZE: 10px;
+	color:#006;
+    WIDTH: 100%;	
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+}
+.BARRA_des
+{   FONT-SIZE: 10px;
+    font-weight:bold;
+	color:Black;
+    WIDTH: 100%;	
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    text-align:left;
+    padding-left:5px;
+}
+.BARRA33
+{   FONT-SIZE: 10px;
+	color:#006;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: left;
+	BACKGROUND-COLOR: transparent;	
+}
+.BARRA333
+{   FONT-SIZE: 10px;
+	color:#000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    border-bottom-style:inset;
+}
+.BARRAAZUL
+{   FONT-SIZE: 10px;
+	color:#006;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    TEXT-ALIGN: center;
+	BACKGROUND-COLOR: transparent;
+ 	WIDTH: 100%;
+
+}
+.TITULITOborde
+{	FONT-WEIGHT: 900;
+    FONT-SIZE: 11px;
+    color:#009;
+    FONT-FAMILY: "Arial";
+	border-bottom:inherit;
+	border-top:inherit;
+	border-left:inherit;
+	border-right:inherit;
+	text-align:center;
+}
+
+.BARRA22
+{   FONT-SIZE: 10px;
+	color:#006;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+	BACKGROUND-COLOR: transparent;	
+}
+.BARRA222
+{   FONT-SIZE: 10px;
+	color:#006;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+}
+.BARRAw3
+{   FONT-SIZE: 10px;
+	color:#006;
+    WIDTH: 100%;	
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: left;
+    BACKGROUND-COLOR: "#fff";
+}
+.TEXTOmicroIZQ
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 7px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent
+    TEXT-ALIGN: LEFT,
+}
+.TEXTOmicroDER
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 7px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    text-align:right
+}
+
+.TEXTOcenterbb
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    HEIGHT: 100%;
+    FONT-FAMILY: Arial;	
+	TEXT-ALIGN: center;
+	FONT-SIZE: 8.5px;
+    WIDTH: 100%;
+	BACKGROUND-COLOR: transparent;
+}
+.TEXTOminiDER
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: 0PX;
+    FONT-SIZE: 9px;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: 0PX;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right	;
+	WIDTH: 100%;
+}
+.TEXTOminiIZQ
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+	color:#333;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: left
+}
+.TALLA
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 9px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: transparent;
+    ALIGN: CENTER;
+
+}
+.TEXTOCENTER
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 11px;
+    OVERFLOW: auto;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.TEXTOAZUL
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 12px;
+    OVERFLOW: auto;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: navy;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: transparent
+}
+.TEXTOAZULPOS
+{ 	font-size-adjust:inherit;
+    FONT-WEIGHT: 400;
+    FONT-SIZE: 12px;
+    COLOR: navy;
+    FONT-FAMILY: Arial;	
+	vertical-align:central;
+}
+.TEXTOAZULPOSDER
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 400;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+
+    COLOR: navy;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+	TEXT-ALIGN: right
+}
+.TEXTOAZULMINI
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 400;
+    FONT-SIZE: 9.5px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: navy;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: transparent
+}
+.ADICIONALdes
+{
+    FONT-SIZE: 9px;
+    WIDTH: 100%;
+    FONT-FAMILY: Arial;
+    rows: 3
+    OVERFLOW: hidden
+}
+.ADICIONAL
+{	
+    FONT-SIZE: 11px;
+    OVERFLOW: auto;
+	width:inherit; 
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+
+
+}
+.estilotextarea4 {
+	scrollbar-3dlight-color: : #009900;
+	scrollbar-darkshadow-color : #999999;
+	scrollbar-highlight-color : #999999;
+	scrollbar-shadow-color : #3985AB;
+	scrollbar-arrow-color : #009900;
+	scrollbar-face-color : #f0f0f0;
+	scrollbar-track-color : #DDEBC6;
+	FONT-SIZE: 10px;
+    FONT-FAMILY: Arial;
+	OVERFLOW: hidden;
+	width:100%;
+	border:none;
+	height:auto;
+	color:#006;
+    BACKGROUND-COLOR: transparent
+} 
+
+
+.ADICIONALFIJO
+{
+    FONT-SIZE: 10px;
+    OVERFLOW: auto;
+    WIDTH: 100%;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+	 BACKGROUND-COLOR: "#fff";
+}
+.ADICIONAL3
+{
+    FONT-SIZE: 11px;
+    OVERFLOW: auto;
+    WIDTH: 120px;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%
+}
+.grande
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 900;
+    FONT-SIZE: 18px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.grandeRED
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 900;
+    FONT-SIZE: 18px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: red;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.TOTAL
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 11px;
+    OVERFLOW: auto;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.TITULITOWHITE
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 900;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: white;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: "Arial";
+    
+}
+.TITULITO
+{	FONT-WEIGHT: 700;
+    FONT-SIZE: 11px;
+    color:#000;
+    FONT-FAMILY: "Arial";
+}
+.TITULITOch
+{   FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+    COLOR: #000;
+    FONT-FAMILY: Arial;     
+    FONT-WEIGHT: 600;
+}
+
+.TITULITOnavy
+{	FONT-WEIGHT: 900;
+    FONT-SIZE: 11px;
+    color:Navy;
+    FONT-FAMILY: "Arial";
+}
+.TITULITOnavy2
+{	FONT-WEIGHT: 500;
+    FONT-SIZE: 11px;
+    color:Navy;
+    FONT-FAMILY: "Arial";
+}
+.TITULITORIGHT
+{	FONT-WEIGHT: 900;
+    FONT-SIZE: 11px;
+    color:#000;
+    FONT-FAMILY: "Arial";
+	text-align:right;
+	padding-right:10px;
+}
+.TITULITOcenter
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 900;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: "Arial";
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.TITULITO2
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: "Arial";
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: left
+}
+.TITULITOcenterRED
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 900;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: navy;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: "Arial";
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.TITULITOcenterGREEN
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 900;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: DARKGREEN;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: "Arial";
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.TITULITOcenterBLUE
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 900;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: NAVY;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: "Arial";
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.TITULITOder
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 900;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: "Arial";
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right
+}
+.TITULITOIZQ
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 900;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: black;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: "Arial";
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: LEFT
+}
+.TOTALWHITE
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 11px;
+    OVERFLOW: auto;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: white;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.TOTALder
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 9px;
+    OVERFLOW: auto;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right
+}
+
+  
+.TLder
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 9px;
+    OVERFLOW: auto;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right
+}
+.TOTALgrandeder
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 13px;
+    OVERFLOW: auto;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right
+}
+.TOTder
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right
+}
+.titulo
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-WEIGHT: 700;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: left
+}
+.tituloMODELADOR
+{	FONT-WEIGHT: 700;
+    FONT-SIZE: 14px;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: left;
+}
+.tituloGRANDEVERDE1
+{	
+	FONT-WEIGHT: 700;
+	FONT-SIZE: 12px;
+	color : white;
+	background-color:darkgreen;
+
+	FONT-FAMILY: Arial;
+	TEXT-ALIGN: CENTER;
+
+}
+.tituloGRANDEVERDE
+{	
+	FONT-WEIGHT: 700;
+	FONT-SIZE: 12px;
+	color : white;
+	background-color:darkgreen;	
+	FONT-FAMILY: Arial;
+	TEXT-ALIGN: CENTER;
+
+}
+.tituloGRANDEROJO
+{	
+	FONT-WEIGHT: 700;
+	FONT-SIZE: 12px;
+	color : white;
+	background-color:RED;	
+	FONT-FAMILY: Arial;
+	TEXT-ALIGN: CENTER;
+
+}
+.tituloGRANDEorange
+{	
+	FONT-WEIGHT: 700;
+	FONT-SIZE: 12px;
+	color : white;
+	background-color:#f60;	
+	FONT-FAMILY: Arial;
+	TEXT-ALIGN: CENTER;
+
+}
+.tituloGRANDEgris
+{	
+	FONT-WEIGHT: 700;
+	FONT-SIZE: 10px;
+	color : black;
+	background-color:#c0c0c0;
+	FONT-FAMILY: Arial;
+	TEXT-ALIGN: left;
+}
+.tituloGRANDEgris2
+{	
+	FONT-WEIGHT: 500;
+	FONT-SIZE: 10px;
+	color : black;
+	background-color:#DDEBC6;
+	FONT-FAMILY: Arial;
+	TEXT-ALIGN: left;
+}
+.tituloGRANDEgris3
+{	
+	FONT-WEIGHT: 700;
+	FONT-SIZE: 12px;
+	color : white;
+	background-color:Navy;
+	FONT-FAMILY: Arial;
+	TEXT-ALIGN: left;
+	padding-top:3px;
+	padding-bottom:5px;
+	padding-left:10px;
+}
+.tituloRESUMEN
+{	
+	FONT-WEIGHT: 700;
+	FONT-SIZE: 13px;
+	color : white;
+	background-color:Navy;
+	FONT-FAMILY: Arial;
+	TEXT-ALIGN: left;
+	padding-top:3px;
+	padding-bottom:5px;
+	padding-left:10px;
+}
+.textogris4
+{	
+	FONT-SIZE: 10px;
+	color : black;
+	FONT-FAMILY: Arial;
+	TEXT-ALIGN: left;
+	
+}
+.tituloGRANDEgris33
+{	
+	FONT-WEIGHT: 700;
+	FONT-SIZE: 12px;
+	color : white;
+	background-color:#666;
+	FONT-FAMILY: Arial;
+	TEXT-ALIGN: left;
+	padding-top:3px;
+	padding-bottom:5px;
+	padding-left:10px;
+}

@@ -1,0 +1,43 @@
+declare @col varchar(10)
+declare @com char(2)
+set @col = '99990001'
+set @com  ='01'
+
+
+
+    -- CREA TABLA TEMPORAL CON LAS LETRAS DE LA COMBINACION
+	select * into #testtable FROM (
+		select LETRA1 AS LETRA from rayaSEC R2
+		where R2.COLOR = @COL AND R2.COMBIN = '00' 
+		UNION
+		select LETRA2 AS LETRA from rayaSEC R2
+		where R2.COLOR = @COL AND R2.COMBIN = '00' 
+		UNION
+		select LETRA3 AS LETRA from rayaSEC R2
+		where R2.COLOR = @COL AND R2.COMBIN = '00' 
+		UNION
+		select LETRA4 AS LETRA from rayaSEC R2
+		where R2.COLOR = @COL AND R2.COMBIN = '00' 
+		UNION
+		select LETRA5 AS LETRA from rayaSEC R2
+		where R2.COLOR = @COL AND R2.COMBIN = '00' 
+		UNION
+		select LETRA6 AS LETRA from rayaSEC R2
+		where R2.COLOR = @COL AND R2.COMBIN = '00') uu
+ 	where not letra  is null
+
+	-- HACE EL SELECT DE LA TABLA TEMPORAL
+	-- Y LE ASIGNA COLORES DE ACUERDO A LA COMBINACION
+	-- SOLICITADA
+
+	SELECT AA1.LETRA, C1.CODIGO AS COLOR, C1.DESCRIPCION 
+		FROM	#testtable AA1, RAYACOLOR R1 
+			LEFT OUTER JOIN COLORES C1 ON R1.CODCOL = C1.CODIGO
+		WHERE R1.COLOR =@COL 
+			AND	R1.COMBIN =@COM
+			AND AA1.LETRA = R1.LETRA
+	DROP TABLE #TESTTABLE
+
+
+
+EXEC LETRA_COLOR_COMBO '99990001', '01'

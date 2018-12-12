@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+</head>
+<body>
+
+    <table align="center" cellspacing="1" border="1" cellpadding="3" id="resumenS" name="resumenS" style="display:block" >
+     
+              
+                    <tr  class="TEXTO4" id="lin<%=i%>">
+                         <td style="text-align:center; background-color:#826f39;color:#fff;FONT-WEIGHT: 700;FONT-SIZE: 12px;
+                    FONT-FAMILY: Arial;TEXT-ALIGN: CENTER; " >RSV</td>
+                        <td style="text-align:left;  background-color:#CFFEDD" id="c<%=i%>" ><%=TRIM(ac1(i))%></td>
+                        <td style="text-align:left;  background-color:#CFFEDD" id="d<%=i%>"><%=TRIM(aD1(i))%></td>
+                        <td style="text-align:right; background-color:#CFFEDD" id="k<%=i%>"><%=FORMATNUMBER(TRIM(ak1(i)),3,,,TRUE)%>
+                        <input id="kg<%=i%>" value="<%=FORMATNUMBER(TRIM(ak1(i)),3,,,TRUE)%>" style="display:none;width:60px" /></td>
+                        <td style="text-align:right; background-color:#CFFEDD" id="q<%=i%>"> 
+                            <input id="qt<%=i%>" value="<%=FORMATNUMBER(TRIM(aq2(i)),0,,,TRUE)%>" style="display:none;width:60px" />                
+                          </td>        
+                   
+                        <td style="text-align:right; background-color:#FCE0F9" id="u<%=i%>"><%=TRIM(RS("UND"))%></td>          
+                        <td style="text-align:right; background-color:#FCE0F9;cursor:pointer;" ondblclick="partida('a','<%=i%>')" id="s<%=i%>" >
+                                
+                        </td>                      
+                        <script language="jscript" type="text/jscript">
+                            <%I=1 %>
+                        </script>
+                        <td style="text-align:right; background-color:#FCE0F9" id="a<%=i%>">
+                        <%=TRIM((RS("SK_CALMA")))%></td>            
+                        <td style="text-align:right; background-color:#C1D3FF;">
+                        &nbsp;<%if suge = "" then suge = 0 %><input id="su<%=i%>" name="su<%=i%>" value='<%=suge%>' style="display:none;width:60px" /> 
+                        </td>                          
+                        <td style="background-color:#f7b7f6" >
+                            <input id="rs<%=i%>" name="rs<%=i%>" value='<%=CDBL(rs("rsv"))%>' style="display:none;width:60px" /> 
+                       </td>                           
+                    
+                        <td style="text-align:left ; background-color:#E5E5E5">vvv <%=aC2(i)%></td>                        
+                           
+                        <td style="text-align:right; background-color:#E5E5E5"><%=FORMATNUMBER(can,3,,,TRUE)%></td>
+                          
+                        <td style="text-align:right; background-color:#E5E5E5"><%=FORMATNUMBER(can,2,,,TRUE)%></td>
+                        <td style="text-align:left ; background-color:#E5E5E5"><%=TRIM(RS("RUC"))%>&nbsp;</td>
+                        <td style="text-align:left ; background-color:#E5E5E5"><%=TRIM(RS("PRO"))%>&nbsp;</td>
+                           
+                        <td style="text-align:left ; background-color:#E5E5E5"><%=fec%></td>
+                   
+                        <td style="text-align:right; background-color:#FCE0F9">&nbsp;</td>
+                        <td style="text-align:left ; background-color:#FCE0F9" id="s<%=i%>">&nbsp;</td>
+                        <td style="text-align:right; background-color:#FCE0F9">&nbsp;</td>
+                        <td style="text-align:right; background-color:#C1D3FF;" ondblclick="partida('a','<%=i%>')">
+                            &nbsp;</td>
+                            <td style="background-color:#f7b7f6">&nbsp;</td>
+                        <td>
+                                    <input id="co<%=i%>" type ="checkbox" />
+                        &nbsp;</td>
+                        <td style="text-align:right; background-color:#E5E5E5">&nbsp;rr <%=ac2(i) %></td>
+                        <td style="text-align:left ; background-color:#E5E5E5">&nbsp;</td>
+                        <td style="text-align:left ; background-color:#E5E5E5">&nbsp;</td>
+                        <td style="text-align:left ; background-color:#E5E5E5">&nbsp;</td>
+                        <td style="text-align:left ; background-color:#E5E5E5">&nbsp;</td>
+                        <td style="text-align:left ; background-color:#E5E5E5">&nbsp;</td>
+                  
+                        </tr>
+               
+    </table>
+</body>
+</html>

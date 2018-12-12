@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<title>CSS3 Floating Follow Tab with Rollover Effects | Demo | Elated.com</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+<style type="text/css">
+
+/* The tab itself */
+
+#followTab {
+
+  /* No bullets */
+  list-style: none;
+
+  /* Position and float the tab */  
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 130px;
+  
+  /* Give the tab width and padding */
+  width: 240px;
+  padding: 8px 5px;
+  
+  /* Add the curved white border */
+  border: 3px solid #fff;
+  border-right: none;
+  -moz-border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
+  
+  /* Add the drop shadow */
+  -moz-box-shadow: 0 0 7px rgba(0, 0, 0, .6);
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, .6);
+  box-shadow: 0 0 7px rgba(0, 0, 0, .6);
+  
+  /* Add the semitransparent gradient background */
+  background: rgba(239, 91, 10, .75);
+  background: -moz-linear-gradient(top, rgba(243, 52, 8, .75), rgba(239, 91, 10, .75));
+  background: -webkit-gradient( linear, left top, left bottom, from( rgba(243, 52, 8, .75) ), to( rgba(239, 91, 10, .75) ) );
+  background: linear-gradient(top, rgba(243, 52, 8, .75), rgba(239, 91, 10, .75));
+  filter: progid:DXImageTransform.Microsoft.Gradient( startColorStr='#c0f33408', endColorStr='#c0ef5b0a', GradientType=0 );
+}
+
+/* Items within the tab */
+
+#followTab li {
+  margin: 9px 0 0 0;
+  line-height: 0;
+}
+
+#followTab li:first-child {
+  margin-top: 0;
+}
+
+/* General style for buttons within the tab */
+
+#followTab a {
+  display: block;
+  width: 240px;
+  background-image: url("images/follow-tab-buttons.png");
+}
+
+#followTab a span {
+  position: absolute;
+  top: -999em;
+}
+
+/* "Newsletter" button */
+
+#followTab a.newsletter {
+  height: 16px;
+  background-position: 0 0;
+}
+
+#followTab a.newsletter:hover {
+  background-position: 0 -16px;
+}
+
+/* "RSS" button */
+
+#followTab a.rss {
+  height: 24px;
+  background-position: 0 -32px;
+}
+
+#followTab a.rss:hover {
+  background-position: 0 -56px;
+}
+
+/* "Twitter" button */
+
+#followTab a.twitter {
+  height: 15px;
+  background-position: 0 -80px;
+}
+
+#followTab a.twitter:hover {
+  background-position: 0 -95px;
+}
+
+/* "Facebook" button */
+
+#followTab a.facebook {
+  height: 24px;
+  background-position: 0 -110px;
+}
+
+#followTab a.facebook:hover {
+  background-position: 0 -134px;
+}
+
+</style>
+
+<!--[if lt IE 7]>
+
+<style type="text/css">
+
+/* Band-aid for IE6 */
+
+#followTab {
+  position: absolute;
+}
+
+</style>
+
+<![endif]-->
+
+
+
+</head>
+<body>
+
+<div class="wideBox">
+  <h1>CSS3 Floating Follow Tab with Rollover Effects</h1>
+</div>
+
+<ul id="followTab">
+  <li><a class="newsletter" href="/newsletter/" title="Subscribe to the Elated Extra newsletter"><span>Subscribe to the Elated Extra newsletter</span></a></li>
+  <li><a class="rss" href="http://feeds.elated.com/ElatedNewStuff" title="Subscribe to Elated.com's RSS feed"><span>Subscribe to Elated.com's RSS feed</span></a></li>
+  <li><a class="twitter" href="http://twitter.com/ElatedDotCom" title="Follow Elated.com on Twitter"><span>Follow Elated.com on Twitter</span></a></li>
+  <li><a class="facebook" href="http://www.facebook.com/ElatedDotCom" title="Follow Elated.com on Facebook"><span>Follow Elated.com on Facebook</span></a></li>
+</ul>
+
+<div id="content">
+
+  <h1>Aircraft and Submarines</h1>
+  <h2>The Story of the Invention, Development, and Present-Day Uses of War's Newest Weapons</h2>
+  <h3>By Willis J. Abbot</h3>
+  <h4>Preface</h4>
+
+  <img class="inline" style="width: 300px; height: 373px; float: left; margin-right: 20px;" src="images/fighting-by-sea-and-sky.jpg" alt="Fighting by Sea and Sky" />
+
+  <p>Not since gunpowder was first employed in warfare has so
+  revolutionary a contribution to the science of slaughtering men been
+  made as by the perfection of aircraft and submarines. The former
+  have had their first employment in this world-wide war of the
+  nations. The latter, though in the experimental stage as far back as
+  the American Revolution, have in this bitter contest been for the
+  first time brought to so practical a stage of development as to
+  exert a really appreciable influence on the outcome of the struggle.</p>
+
+  <p>Comparatively few people appreciate how the thought of navigating
+  the air's dizziest heights and the sea's gloomiest depths has
+  obsessed the minds of inventors. From the earliest days of history
+  men have grappled with the problem, yet it is only within two
+  hundred years for aircraft and one hundred for submarines that any
+  really intelligent start has been made upon its solution. The men
+  who really gave practical effect to the vague theories which others
+  set up&mdash;in aircraft the Wrights, Santos-Dumont, and Count Zeppelin;
+  in submarines Lake and Holland&mdash;are either still living, or have
+  died so recently that their memory is still fresh in the minds of
+  all.</p>
+
+  <p>In this book the author has sketched swiftly the slow stages by
+  which in each of these fields of activity success has been attained.
+  He has collated from the immense (p. iv) mass of records of the
+  activities of both submarines and aircraft enough interesting data
+  to show the degree of perfection and practicability to which both
+  have been brought. And he has outlined so far as possible from
+  existing conditions the possibilities of future usefulness in fields
+  other than those of war of these new devices.</p>
+
+  <img class="inline" style="width: 452px; height: 300px; float: right; margin-left: 20px;" src="images/a-battle-in-mid-air.jpg" alt="A Battle in Mid-air" />
+
+  <p>The most serious difficulty encountered in dealing with the present
+  state and future development of aircraft is the rapidity with which
+  that development proceeds. Before a Congressional Committee last
+  January an official testified that grave delay in the manufacture of
+  airplanes for the army had been caused by the fact that types
+  adopted a scant three months before had become obsolete, because of
+  experience on the European battlefields, and later inventions before
+  the first machines could be completed. There may be exaggeration in
+  the statement but it is largely true. Neither the machines nor the
+  tactics employed at the beginning of the war were in use in its
+  fourth year. The course of this evolution, with its reasons, are
+  described in this volume.</p>
+
+  <p>Opportunities for the peaceful use of airplanes are beginning to
+  suggest themselves daily. After the main body of this book was in
+  type the Postmaster-General of the United States called for bids for
+  an aërial mail service between New York and Washington&mdash;an act urged
+  upon the Government in this volume. That service contemplates a
+  swift carriage of first-class mail at an enhanced price&mdash;the
+  tentative schedule being three hours, and a postage fee of
+  twenty-five cents an ounce. There can be no doubt of the success of
+  the service, its value to the public, and its possibilities of
+  revenue to the post-office. Once its usefulness is established it
+  will be extended to routes of similar length, such as New York
+  (p. v) and Boston, New York and Buffalo, or New York and
+  Pittsburgh. The mind suggests no limit to the extension of aërial
+  service, both postal and passenger, in the years of industrial
+  activity that shall follow the war.</p>
+
+  <img class="inline" style="width: 420px; height: 321px; float: left; margin-right: 20px;" src="images/the-giant-and-the-pigmies.jpg" alt="The Giant and the Pigmies" />
+
+  <p>In the preparation of this book the author has made use of many
+  records of personal experiences of those who have dared the air's
+  high altitudes and the sea's stilly depths. For permission to use
+  certain of these he wishes to express his thanks to the Century Co.,
+  for extracts from <i>My Airships</i> by Santos-Dumont; to Doubleday, Page
+  &amp; Co., for extracts from <i>Flying for France</i>, by James R. McConnell;
+  to Charles Scribner's Sons, for material drawn from <i>With the French
+  Flying Corps</i>, by Carroll Dana Winslow; to <i>Collier's Weekly</i>, for
+  certain extracts from interviews with Wilbur Wright; to <i>McClure's
+  Magazine</i>, for the account of Mr. Ray Stannard Baker's trip in a
+  Lake submarine; to Hearst's International Library, and to the
+  <i>Scientific American</i>, for the use of several illustrations.</p>
+
+</div>
+
+<div class="wideBox">
+  <p>&copy; Elated.com | <a href="http://www.elated.com/articles/css3-floating-follow-tab-with-rollover-effects/">Back to Tutorial</a></p>
+  <p style="font-size: .8em; line-height: 1.5em;"><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.elated.com/" property="cc:attributionName" rel="cc:attributionURL">http://www.elated.com/</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
+</div>
+
+</body>
+</html>
+

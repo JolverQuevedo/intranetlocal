@@ -1,0 +1,18 @@
+USE MODELaDOR 
+GO
+
+ALTER TABLE CCTELA ADD
+SALDO NUMERIC(18,3)
+GO
+
+UPDATE CCTELA
+SET
+SALDO = pesototal
+
+
+UPDATE CCTELA
+SET
+condicion = 'c'
+where calidad = '1'
+
+GO

@@ -1,0 +1,77 @@
+ç<script language='VBscript' runat='Server'> 
+ 
+'Puede agregar controladores de evento especiales a este archivo que se ejecuten automáticamente al 
+'producirse eventos de páginas Active Server. Para ello, cree una subrutina y déle un nombre de la 
+'lista siguiente que se corresponda con el evento que desea utilizar. Por ejemplo, para crear un 
+'controlador de evento para Session_OnStart, debe insertar el siguiente código en 
+'este archivo (sin comentarios): 
+ 
+'Sub Session_OnStart 
+'**Inserte el código aquí ** 
+'End Sub 
+ 
+'EventName              Descripción 
+'Session_OnStart        Se ejecuta la primera vez que un usuario abre cualquier página de la aplicación 
+'Session_OnEnd          Se ejecuta cuando finaliza el tiempo de espera de la sesión de un usuario o éste sale de la aplicación 
+'Application_OnStart    Se ejecuta una vez cuando un usuario abre por primera vez la primera página de la aplicación 
+'Application_OnEnd      Se ejecuta una vez cuando se apaga el servidor Web 
+</script>
+
+<script language='VBscript' runat='Server'> 
+Sub Application_OnStart
+'Variables de entorno
+
+	Application("AppName") = "MODELADOR"
+'***********************************************************************************************
+'   ESTE ES EL QUE ESTOY USANDO EN EL SERVER DE HITEPIMA
+'***********************************************************************************************
+'	Application("ConStr") = "DRIVER={SQL Server};SERVER=192.168.3.4;Database=modelador;Uid=sa;PWD=F3QY17"
+'***********************************************************************************************
+'   ESTE ES EL QUE ESTOY USANDO EN EL SERVER DEL HOST
+'***********************************************************************************************
+' Application("ConStr") = "Provider=SQLNCLI11; Data Source=192.168.3.4 ; Initial Catalog=MODELADOR; User id=SA; Password=F3QY17"
+' Application("ConStr") = "Provider=SQLNCLI; Data Source=192.168.3.4; Initial Catalog=MODELADOR; User id=SA; Password=F3QY17"
+'***********************************************************************************************
+'   ESTE ES EL QUE ESTOY USANDO EN DESARROLLO
+'***********************************************************************************************
+	Application("ConStr")= "Provider=SQLOLEDB.1;Data Source=localhost;Initial Catalog=MODELADOR; User id=SA; Password=c4r4m3l1t0;"
+'***********************************************************************************************	
+'   ESTE ES EL QUE ESTOY USANDO EN producción
+'***********************************************************************************************	
+''''	Application("ConStr")= "Provider=SQLOLEDB.1;Data Source=SERVSQL\MSSQLSERVER1;Initial Catalog=MODELADOR; User id=SA; Password=F3QY17;"
+
+'db_server = "192.168.3.4"
+'db_name = "MODELADOR"
+'db_username = "SA"
+'db_userpassword = "F3QY17"
+'Application("ConStr") = "Driver={SQL Server};SERVER=" & db_server & ";DATABASE=" & db_name & ";UID=" & db_username & ";PWD=" & db_userpassword
+
+Application("color1")       = "#F0F0F0" 	' gris
+Application("color2")       = "#FFFFFF"  	' blanco
+Application("BARRA")        = "#DDEBC6"		' VERDE CLARO
+Application("head")         = "#0087d1"		' AZULINO CLARO
+Application("BORDE")        = "#999999"		' GRAFITO
+Application("titulo")       = "#3366CC"		' AZULINO OSCURO
+Application("resalte")      = "#FF6600"		' NARANJA OSCURO
+Application("fondito")      = "#f7d975"     ' NARANJA CLARO
+Application("contraste")    = "#009900"		' VERDE OSCURO
+Application("subtot")       = "#c4c4c4"     ' GAINSBORO
+Application("owner")        = "dbo"
+Application("BARRA2")        = "red"		' rojo
+End Sub 
+</script>
+
+<script language='VBscript' runat='Server'> 
+Sub Session_OnStart
+		Session.Timeout=600
+		startPage = "/" & Application("AppName") & "/INDEX1.ASP"
+		currentPage = Request.ServerVariables("script_NAME")
+		
+
+
+End Sub
+</script>
+
+<script language='VBscript' runat='Server'> 
+
+</script>
